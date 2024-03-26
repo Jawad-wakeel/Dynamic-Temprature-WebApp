@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Node js</title>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+	}
+	.cont{
+		min-width: 300px;
+		background: lightgreen;
+		padding: 20px;
+	}
+	span{
+		font-weight: bold;
+	}
+</style>
+<body>
+	<div class="cont">
+		<p>City : <span>{%city%} {%country%}</span></p>
+		<p>Sunny/Cloudy... : <span>{%sunCou%}</span></p>
+		<p>Temperature : <span>{%temp%}&deg;C</span></p>
+		<p>Feels like : <span>{%feel%}&deg;C</span></p>
+		<p>Minimum temperature : <span>{%min%}&deg;C</span></p>
+		<p>Maximum temperature : <span>{%max%}&deg;C</span></p>
+	</div>
+</body>
+<script>
+	// fetch("http://api.openweathermap.org/data/2.5/weather?q=Peshawar&appid=32b408d6cb924318dfc0e56f3224ce0b")
+	// .then((res) =>{
+	// 	return res.json();
+	// })
+	// .then((d) => {
+	// 		console.log(d);
+	// });
+</script>
+</html>
